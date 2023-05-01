@@ -1,2 +1,3 @@
-# create-nodejs
-Proyecto BASE
+# {{#DX:PROJECT_NAME}}
+
+{{#DX:PROJECT_DESCRIPTION}}

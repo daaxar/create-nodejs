@@ -1,0 +1,19 @@
+{
+    "name": "@daaxar/package-js",
+    "version": "0.0.1",
+    "description": "",
+    "main": "dist/index.js",
+    "scripts": {
+        "lint": "eslint ./src",
+        "lint:fix": "npm run lint -- --fix",
+        "build": "esbuild src/index.js --bundle --minify --sourcemap --platform=node --external:./node_modules/* --outfile=dist/index.js --log-level=error",
+        "clean": "rimraf ./dist/*",
+        "clean:all": "npm run clean -- ./node_modules"
+    },
+    "keywords": [
+        "package",
+        "javascript"
+    ],
+    "author": "github.com/daaxar",
+    "license": "MIT"
+}
